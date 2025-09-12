@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'basesAngular01';
+  title = 'Mariana Jatziri';
+  duplicarNumero(valor:number): number{
+    return valor*2;
+  }
+  pelicula={
+    titulo:"Yo antes de ti",
+    anio:2014,
+    genero:"Romance"
+  }
 }
