@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroesListComponent } from './heroes/heroes-list/heroes-list.component';
 //es un decorador que permite hacer las declaraciones de los modulos que usaremos
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroesListComponent
   ],
   imports: [
     BrowserModule,
