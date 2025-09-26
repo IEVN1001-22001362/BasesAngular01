@@ -1,0 +1,48 @@
+<body>
+  <div class="container-fluid py-4">
+  <h1 class="text-center mb-4">Cinépolis</h1>
+
+  <div class="row">
+    <!-- Entradas -->
+    <div class="col-md-6">
+      <div class="card p-3 bg-dark text-white">
+        <h3>Entradas</h3>
+        <div class="mb-3">
+          <label class="form-label">Nombre</label>
+          <input type="text" class="form-control" [(ngModel)]="nombre">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Cantidad Compradores</label>
+          <input type="text" class="form-control" [(ngModel)]="cantidadCompradores">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Tarjeta Cinéco</label><br>
+          <input type="radio" [(ngModel)]="Tarjeta" value="si"> Sí
+          <input type="radio" [(ngModel)]="Tarjeta" value="no"> No
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Cantidad de Boletos</label>
+          <input type="text" class="form-control" [(ngModel)]="cantidadBoletos">
+        </div>
+      </div>
+    </div>
+
+    <!-- Salidas -->
+    <div class="col-md-6">
+      <div class="card p-3 bg-dark text-white">
+        <h3>Salidas</h3>
+        <div *ngIf="mensaje">
+          <p>{{ mensaje }}</p>
+          <h4 *ngIf="valorPagar > 0">$ {{ valorPagar | number }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Acciones -->
+  <div class="text-center mt-4">
+    <button class="btn btn-success me-2" (click)="calculo()">Procesar</button>
+    <button class="btn btn-danger" (click)="limpiar()">Salir</button>
+  </div>
+</div>
+</body>

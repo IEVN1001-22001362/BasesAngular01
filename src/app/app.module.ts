@@ -7,13 +7,17 @@ import { HeroesListComponent } from './heroes/heroes-list/heroes-list.component'
 import { FormsModule } from '@angular/forms';
 import { HeroesFilterPipe } from './heroes/heroes-filter.pipe';
 import { OperasBasComponent } from './formularios/operas-bas/operas-bas.component';
+import { CinepolisComponent } from './formularios/cinepolis/cinepolis.component';
+
 //es un decorador que permite hacer las declaraciones de los modulos que usaremos
 @NgModule({
   declarations: [
     AppComponent,
     HeroesListComponent,
     HeroesFilterPipe,
-    OperasBasComponent
+    OperasBasComponent,
+    CinepolisComponent,
+    
   ],
   imports: [
     BrowserModule,
