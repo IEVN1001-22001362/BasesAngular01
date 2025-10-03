@@ -1,0 +1,194 @@
+<div class="container py-4">
+  <h1 class="text-center mb-4">Calculadora de Resistencias</h1>
+
+  <div class="row">
+    <!-- 1ra Banda -->
+    <div class="col-md-2">
+      <table>
+        <tr><td></td><td class="color">1ra Banda</td></tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="0"></td>
+          <td id="negro">0</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="1"></td>
+          <td id="cafe">1</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="2"></td>
+          <td id="rojo">2</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="3"></td>
+          <td id="naranja">3</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="4"></td>
+          <td id="amarillo">4</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="5"></td>
+          <td id="verde">5</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="6"></td>
+          <td id="azul">6</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="7"></td>
+          <td id="morado">7</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="8"></td>
+          <td id="gris">8</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b1" [(ngModel)]="banda1" [value]="9"></td>
+          <td id="blanco">9</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- 2da Banda -->
+    <div class="col-md-2">
+      <table>
+        <tr><td></td><td class="color">2da Banda</td></tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="0"></td>
+          <td id="negro">0</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="1"></td>
+          <td id="cafe">1</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="2"></td>
+          <td id="rojo">2</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="3"></td>
+          <td id="naranja">3</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="4"></td>
+          <td id="amarillo">4</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="5"></td>
+          <td id="verde">5</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="6"></td>
+          <td id="azul">6</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="7"></td>
+          <td id="morado">7</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="8"></td>
+          <td id="gris">8</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b2" [(ngModel)]="banda2" [value]="9"></td>
+          <td id="blanco">9</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- 3ra Banda Multiplicador -->
+    <div class="col-md-2">
+      <table>
+        <tr><td></td><td class="color">Multiplicador</td></tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="1"></td>
+          <td id="negro">x1</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="10"></td>
+          <td id="cafe">x10</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="100"></td>
+          <td id="rojo">x100</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="1000"></td>
+          <td id="naranja">x1000</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="10000"></td>
+          <td id="amarillo">x10000</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="100000"></td>
+          <td id="verde">x100000</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="1000000"></td>
+          <td id="azul">x1000000</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="10000000"></td>
+          <td id="morado">x10000000</td>
+        </tr>
+         <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="100000000"></td>
+          <td id="gris">x100000000</td>
+        </tr>
+         <tr>
+          <td><input type="radio" name="b3" [(ngModel)]="banda3" [value]="1000000000"></td>
+          <td id="blanco">x1000000000</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Tolerancia -->
+  <div class="row mt-3">
+    <div class="col-md-2">
+      <table>
+        <tr>
+          <td><input type="radio" name="tol" [(ngModel)]="tolerancia" [value]="5"></td>
+          <td id="dorado">Dorado 5%</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="tol" [(ngModel)]="tolerancia" [value]="10"></td>
+          <td id="plata">Plata 10%</td>
+        </tr>
+      </table>
+    </div>
+    <button class="col-md-1 btn btn-primary" (click)="calculo()">Calcular</button>
+   
+  </div>
+
+  <!-- Resultados -->
+  <div class="row mt-4">
+    <div class="col-md-8">
+      <table class="table table-bordered text-center">
+        <thead>
+          <tr>
+            <th>Color 1</th>
+            <th>Color 2</th>
+            <th>Color 3</th>
+            <th>Tolerancia</th>
+            <th>Valor Ω</th>
+            <th>Valor Máx</th>
+            <th>Valor Mín</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{color1}}</td>
+            <td>{{color2}}</td>
+            <td>{{color3}}</td>
+            <td>{{colorTol}}</td>
+            <td>{{valor}}</td>
+            <td>{{valorMax}}</td>
+            <td>{{valorMin}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+#negro{
+    background-color: black;
+}
+#cafe{
+    background-color: #896C6C;
+}
+#rojo{
+    background-color: #8C1007;
+}
+#naranja{
+    background-color: #ED775A;
+}
+#amarillo{
+    background-color: #FFE797;
+}
+#verde{
+    background-color: #A7E399;
+}
+#azul{
+    background-color: #739EC9;
+}
+#morado{
+    background-color: #898AC4;
+}
+#gris{
+    background-color: #D1D3D4;
+}
+#blanco{
+    background-color: #F5F5F0;
+    color: black;
+}
+.color{
+    background-color: #B6B09F;
+      color: black;
+}
+table{
+    color: white;
+}
+#dorado{
+    background-color: #D4AC2B;
+}
+#plata{
+    background-color: #B7B7B7;
+}
